@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.seleniumcucmber.app.salesforce.login.LoginRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 72.989 sec

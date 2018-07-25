@@ -1,0 +1,3 @@
+com\seleniumcucmber\app\salesforce\login\LoginRunnerTest.class
+com\seleniumcucmber\app\salesforce\login\LoginScenario.class
+com\seleniumcucmber\app\salesforce\testcases\MenuTest.class

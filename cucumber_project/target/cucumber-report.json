@@ -1,0 +1,91 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Testing Top Menu",
+        "description": "",
+        "id": "testing-the-top-menu.;testing-top-menu;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 70807754779,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am logged in \"Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 16
+                }
+              ],
+              "location": "MenuTest.I_am_logged_in(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I click on \"hometab\"",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "\"Todaysevent\" element should be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Todaysevent",
+                  "offset": 1
+                }
+              ],
+              "location": "MenuTest.Element_should_be_present(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Menu"
+          },
+          {
+            "line": 1,
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Testing the top menu.",
+    "description": "In to work perform all operations after logging in\nAs a sales person\nI want to check menu items",
+    "id": "testing-the-top-menu.",
+    "keyword": "Feature",
+    "uri": "src/main/resources/com/seleniumcucmber/app/salesforce/testcases/Menu.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag1"
+      }
+    ]
+  }
+]
